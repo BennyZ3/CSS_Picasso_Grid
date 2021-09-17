@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  height: 480px;
+  width: 360px;
+  grid-template-columns: 1fr 3fr 6fr;
+  grid-template-rows: 3fr 1fr 7fr 2fr;
+}
+/* .container div {
+  border: 6px solid black;
+} */
+
+.pos5,
+.pos8 {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+
+.left5 {
+  border-right: 12px solid black;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.top {
+  border-top: 12px solid black;
+}
+.right {
+  border-right: 12px solid black;
+}
+.bot {
+  border-bottom: 12px solid black;
+}
