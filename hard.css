@@ -7,6 +7,8 @@
   display: grid;
   height: 450px;
   width: 700px;
+  margin-left: 25%;
+  margin-right: 25%;
   grid-template-columns: 1fr 5fr 6fr 1.3fr;   
   grid-template-rows: 1.5fr 4fr 3fr 1fr;
 }
